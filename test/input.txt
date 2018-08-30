@@ -93,6 +93,13 @@
   # listing indexes get updated on next request
   delete 1
   list
+  
+##########################################################
+# test size command
+##########################################################
+
+  # returns size of current list
+  size
 
 ##########################################################
 # test clear command
