@@ -27,6 +27,9 @@
   add Valid Name p/not_numbers e/valid@e.mail
   add Valid Name p/12345 e/notAnEmail
 
+  # should catch invalid phone data
+  add John Lee p/5 e/johnlee@gmail.com
+
   # should add correctly
   add Adam Brown p/111111 e/adam@gmail.com
   list
